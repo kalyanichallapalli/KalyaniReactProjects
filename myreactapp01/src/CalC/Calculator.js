@@ -1,21 +1,24 @@
 import React,{useState} from 'react'
-import './App.css'
-
 function Calculator() {
-    
+
   const[input, setInput] = useState('')
   const[result ,setResult] = useState(0)
 
-  const handleChange = (e) =>{
-      setInput(e.target.value)
-  }
+    const handleChange = (e) =>{
+        setInput(e.target.value)
+    }
+    const handleClear = ()=> {
+    setInput('')
+    setResult('')
+    }
   return (
     <div>
         <center>
         <input type='text' value={input} name ='input' onChange={handleChange}></input>
         <h5>Result: {result}</h5>
         <button onClick={()=> setResult(eval(input))}>Result</button><br/>
-        <button onClick={()=> setInput('')}>Clr</button>
+        {/* <button onClick={()=> setInput('')}>Clr</button> */}
+        <button onClick={handleClear}>Clr</button>
         <button onClick={()=> setInput(input + '/')}>/</button>
         <button onClick={()=> setInput(input + '*')}>*</button>
         <button onClick={()=> setInput(input + '-')}>-</button>
