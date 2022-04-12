@@ -7,7 +7,6 @@ function Button() {
   return (
     <div>
         <button onClick={()=> setName('kalyani challapalli')}>Change-Name</button>
-        {/* <button onClick={()=> setCount(count + 1)}>Click-count</button> */}
         <Second username = {name} count = {count}></Second>
     </div>
   )
