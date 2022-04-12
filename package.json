@@ -1,0 +1,19 @@
+{
+  "name": "kalyanireactprojects",
+  "version": "1.0.0",
+  "description": "For interviews",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalyanichallapalli/KalyaniReactProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalyanichallapalli/KalyaniReactProjects/issues"
+  },
+  "homepage": "https://github.com/kalyanichallapalli/KalyaniReactProjects#readme"
+}
