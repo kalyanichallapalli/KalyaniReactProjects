@@ -7,9 +7,7 @@ function palindrom(str){
             return 'not palindrome'
         }
 }
-
 // console.log(palindrom('aba'))
-
 function Pdrom(num){  
     console.log('Input:', num)
     let newnum = num.toString().split('').reverse().join('') // if its intiger
@@ -21,7 +19,6 @@ function Pdrom(num){
     }
 }
 // console.log(Pdrom(121))
-
 function drom(num){  
     console.log('Input:', num)
     let len = num.length;
