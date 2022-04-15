@@ -5,7 +5,7 @@ function Test(props) {
   return (
     <div>
         Test Component <span/>
-        <input type='text' onChange={props.handleChange}></input>
+        <input type='text' onChange={props.onchange}></input>
     </div>
   )
 }
