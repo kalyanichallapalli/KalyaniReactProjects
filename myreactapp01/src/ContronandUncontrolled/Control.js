@@ -9,7 +9,8 @@ export default function Control() {
     <div>
         <center>
            <h5>Name: {name}</h5> <br/>
-            <input type='text' onChange={handleChange}/>
+           Parent componet <span/>
+           <input type='text' onChange={handleChange}></input>
             <Test onChange={handleChange}/>
         </center>
     </div>

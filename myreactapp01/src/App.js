@@ -7,6 +7,7 @@ import Home from './Reactrouter/Home';
 import Dashbord from './Reactrouter/Dashbord';
 import About from './Reactrouter/About';
 import Control from './ContronandUncontrolled/Control';
+import Uncontrol from './ContronandUncontrolled/Uncontrol';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       </BrowserRouter> */}
       <Control/>
+      <Uncontrol/>
     </div>
   );
 }

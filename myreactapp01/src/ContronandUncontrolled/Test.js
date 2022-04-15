@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Test(props) {
+    console.log(props)
   return (
     <div>
-     <input type='text' onChange={props.handleChange}>Test Componet</input>
+        Test Component <span/>
+        <input type='text' onChange={props.handleChange}></input>
     </div>
   )
 }
