@@ -8,12 +8,12 @@ import Dashbord from './Reactrouter/Dashbord';
 import About from './Reactrouter/About';
 import Control from './ContronandUncontrolled/Control';
 import Uncontrol from './ContronandUncontrolled/Uncontrol';
+import NornalComp from './HOC/NornalComp';
 
 function App() {
   return (
     <div className="App">
-      <h2>App Component</h2>
-      {/* <Calculator></Calculator> */}
+        {/* <Calculator></Calculator> */}
       {/* <BrowserRouter>
       <NavBar/> 
       <Routes>
@@ -22,8 +22,9 @@ function App() {
         <Route path='/About'  element = {<About/>}></Route>
       </Routes>
       </BrowserRouter> */}
-      <Control/>
-      <Uncontrol/>
+      {/* <Control/>
+      <Uncontrol/> */}
+      <NornalComp></NornalComp>
     </div>
   );
 }
