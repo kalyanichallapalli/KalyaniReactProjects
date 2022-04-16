@@ -9,22 +9,26 @@ import About from './Reactrouter/About';
 import Control from './ContronandUncontrolled/Control';
 import Uncontrol from './ContronandUncontrolled/Uncontrol';
 import NornalComp from './HOC/NornalComp';
+import UseEffect from './Hooks/UseEffect';
+import UseState from './Hooks/useState';
 
 function App() {
   return (
     <div className="App">
         {/* <Calculator></Calculator> */}
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <NavBar/> 
       <Routes>
         <Route path='/'  element = {<Home/>}></Route>
         <Route path='/Dashbord'  element = {<Dashbord/>}></Route>
         <Route path='/About'  element = {<About/>}></Route>
       </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       {/* <Control/>
       <Uncontrol/> */}
-      <NornalComp></NornalComp>
+      {/* <NornalComp></NornalComp> */}
+      {/* <UseState></UseState> */}
+      {/* <UseEffect></UseEffect> */}
     </div>
   );
 }
