@@ -16,19 +16,21 @@ function App() {
   return (
     <div className="App">
         {/* <Calculator></Calculator> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <NavBar/> 
       <Routes>
         <Route path='/'  element = {<Home/>}></Route>
         <Route path='/Dashbord'  element = {<Dashbord/>}></Route>
         <Route path='/About'  element = {<About/>}></Route>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <Control/>
       <Uncontrol/> */}
       {/* <NornalComp></NornalComp> */}
       {/* <UseState></UseState> */}
       {/* <UseEffect></UseEffect> */}
+      <Calculator>
+      </Calculator>
     </div>
   );
 }
