@@ -4,7 +4,7 @@
   "description": "For interviews",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kalyanichallapalli/KalyaniReactProjects/issues"
   },
-  "homepage": "https://github.com/kalyanichallapalli/KalyaniReactProjects#readme"
+  "homepage": "https://github.com/kalyanichallapalli/KalyaniReactProjects#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+
 }
