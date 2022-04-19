@@ -1,3 +1,6 @@
-let a = 5 , b= 5;
-
-let c = a+b;
+function sum(a, b) {
+    return a + b;
+  }
+  module.exports = sum;
+  
+  
