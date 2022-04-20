@@ -1,3 +1,4 @@
+//HORMONIC COUNT
 function sum(n){
 
     let s = 0.0;
