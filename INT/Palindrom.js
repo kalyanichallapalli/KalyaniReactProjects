@@ -1,3 +1,4 @@
+//STRING//INTIGER//ARRAY // PLINDROME
 function palindrom(str){       
  let newstr = str.split('').reverse().join('') //if its string
         if(str == newstr){
