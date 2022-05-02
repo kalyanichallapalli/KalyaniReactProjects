@@ -17,8 +17,6 @@ function sum(n){
        return 1/n+(sum(n-1))
    }}
 console.log(sum(1))
-console.log(sum(5))
-console.log(sum(8))
-console.log(sum(10))
+
 
 
