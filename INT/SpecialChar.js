@@ -22,12 +22,13 @@ function uniqNum(arr){
 }
 
 console.log(uniqNum([1,2,3,3,3,3]))
-// Unique chars to object
+// Unique chars 
 function arrChar(arr){
-    let mymap = new Map();
+    let mymap = [];
      mymap = arr.filter((item, i , arr)=> arr.indexOf(item) === i)
     return mymap
     }
 console.log(arrChar(['a','b','c','a','b']))
+
 
 
