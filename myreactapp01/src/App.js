@@ -3,14 +3,15 @@ import AgeCount from './Redux/AgeCount';
 import Reducer from './Redux/Reducer';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux'
+import NavBar from './Reactrouter/NavBar';
 const store = createStore(Reducer)
 function App() {
   return (
     <div className="App">
-      <Provider store={store}>
+      {/* <Provider store={store}>
       <AgeCount/>
-      </Provider>
-     
+      </Provider> */}
+     <NavBar></NavBar>
     </div>
   );
 }
